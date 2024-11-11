@@ -1,9 +1,11 @@
 // Function that checks if a number is divisible by 10 using if-else
 function isDivisibleBy10(number) {
     if (number % 10 === 0) {
-        return true;  // Return true if divisible by 10
+        // Return true if divisible by 10
+        return true;  
     } else {
-        return false; // Return false otherwise
+        // Return false otherwise
+        return false; 
     }
 }
 
@@ -20,7 +22,7 @@ function runProgram() {
 
     // Output: false
     console.log(result2);
-
-    return 0; // Return a number instead of void
+    // Return a number instead of void
+    return 0; 
 }
 

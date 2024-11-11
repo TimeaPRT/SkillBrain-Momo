@@ -29,15 +29,19 @@ function getDayOfWeek(dayNumber) {
     return dayName;
 }
 
-// Call the functions to execute the program
-runProgram();
+dayName +=" Sunday";
+break;
+default:
+dayName +=" the present";
 
-tellFortune("5", "no huby", "Romania", "Programmer");
+}
+return dayName;
+}
 
-// Get the day of the week based on input number (in English)
+//Show more results:
 
-// Output: Monday
-console.log(getDayOfWeek(1));
-
-// Output: Friday 
-console.log(getDayOfWeek(5)); 
+console.log(getDay(0));
+console.log(getDay(1));
+console.log(getDay(7));
+console.log(getDay(5));
+console.log(getDay(8));
