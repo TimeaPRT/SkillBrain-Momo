@@ -5,6 +5,6 @@
 getSquare = (num) => num*num;
 
 
-console.log(getSquare(6));
-console.log(getSquare(0));
-console.log(getSquare(-12)); 
+console.log("getSquare of 6 = " + getSquare(6));
+console.log("getSquare of 0 = " + getSquare(0));
+console.log("getSquare of -12 = " + getSquare(-12));

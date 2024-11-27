@@ -6,4 +6,6 @@
 
 getRandom = (start, end) =>  Math.floor(Math.random() * (end - start) + start); 
 
-console.log(getRandom(3,6));
+console.log("getRandom from 3 to 6 is: " + getRandom(3,6));
+console.log("getRandom from 10 to 20 is: " + getRandom(10,20));
+console.log("getRandom from -5 to 5 is: " + getRandom(-5,5));

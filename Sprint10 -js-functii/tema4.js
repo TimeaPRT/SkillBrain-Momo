@@ -4,5 +4,5 @@
 
 const addNumber = (...arguments) => arguments.reduce((acc, current) => acc + current, 0);
 
-addNumber(1, 2, 3);
-addNumber(1, 2, 3, 4, 5);
+console.log(addNumber(1, 2, 3));
+console.log(addNumber(1, 2, 3, 4, 5));

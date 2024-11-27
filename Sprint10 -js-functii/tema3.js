@@ -4,7 +4,7 @@
 const letterCount = (str, letter) => {
     let num = 0;
     for (let i = 0; i < str.length; i++) {
-        if (str[i].toLowerCase() === letter) {
+        if (str[i].toLowerCase() === letter.toLowerCase()) {
             num++;
         }
      }
