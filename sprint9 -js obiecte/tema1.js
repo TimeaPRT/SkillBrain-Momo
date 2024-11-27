@@ -1,10 +1,10 @@
 // Write a function that creates an object to hold information about your favorite recipe
 
-function getRecipe(title, mumberOfPortions, incredients) {
+function getRecipe(title, mumberOfPortions, ingredients) {
     const recipe= {
         titlu: title,
         portions: mumberOfPortions,
-        incredients: [...incredients],
+        ingredients: [...ingredients],
     };
 
     return recipe;

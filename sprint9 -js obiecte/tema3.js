@@ -1,7 +1,5 @@
 // Create an array of objects where each object describes a book and has properties such as title (a string), author (a string), and isRead (a boolean indicating whether you've read it).
 
-
-
 const books = [
     {
         title: "Hobbitul",
