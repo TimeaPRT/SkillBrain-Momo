@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&dislay=swap");
 
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
     font-family:'Poppins';
@@ -63,13 +63,9 @@ ul {
 }
 
 .language-table {
-    border: 1px solid;
+    border: 3px solid;
 }
 
-.nursing-skills{
-    border: 1px solid;
-    border-style: inset;
-}
 
 #cv-image-container {
     width: 150px;
