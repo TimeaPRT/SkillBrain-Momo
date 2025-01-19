@@ -35,4 +35,13 @@ function App() {
   );
 }
 
+const TaskViewer = () => {
+  return (
+    <div>
+      <h1>Task Manager</h1>
+      <TaskViewer tasks={[]} />
+    </div>
+  );
+};
+
 export default App;
